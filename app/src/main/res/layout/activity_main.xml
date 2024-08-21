@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steeltex">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="155dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/contagious_logo" />
+
+    <ImageButton
+        android:id="@+id/btnCalc"
+        android:layout_width="365dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_calculadora_selector"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btnConv"
+        android:layout_width="365dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/btnCalc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_conversor_selector"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btnFinan"
+        android:layout_width="365dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/btnConv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_financiamento_selector"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btnJuros"
+        android:layout_width="365dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/btnFinan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_juros_selector"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/text_Herbert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Powered by Herbert Zio"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

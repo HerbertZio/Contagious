@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steeltex">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="155dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/contagious_logo" />
+
+    <TextView
+        android:id="@+id/textConver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text="CONVERSOR"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/volume_button"
+        android:layout_width="365dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/textConver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_volume_selector"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/comprimento_button"
+        android:layout_width="365dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/volume_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_comprimento_selector"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/text_Herbert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Powered by Herbert Zio"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

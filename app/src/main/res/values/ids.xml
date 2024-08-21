@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imgBtn_ponto" type="id" />
+    <item name="imgBtn_porcento" type="id" />
+    <item name="imgBtn_8" type="id" />
+    <item name="imgBtn_mais_e_menos" type="id" />
+    <item name="imgBtn_limpar" type="id" />
+    <item name="imgBtn_9" type="id" />
+    <item name="imgBtn_divisao" type="id" />
+    <item name="imgBtn_multiplicacao" type="id" />
+    <item name="imgBtn_7" type="id" />
+    <item name="imgBtn_6" type="id" />
+    <item name="imgBtn_3" type="id" />
+    <item name="imgBtn_subtracao" type="id" />
+    <item name="imgBtn_5" type="id" />
+    <item name="imgBtn_4" type="id" />
+    <item name="imgBtn_adicao" type="id" />
+    <item name="result" type="id" />
+    <item name="imgBtn_backspace" type="id" />
+    <item name="imgBtn_igual" type="id" />
+    <item name="imgBtn_0" type="id" />
+    <item name="imgBtn_2" type="id" />
+    <item name="imgBtn_1" type="id" />
+</resources>
